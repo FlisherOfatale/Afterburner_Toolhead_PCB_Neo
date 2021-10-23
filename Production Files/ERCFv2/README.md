@@ -30,26 +30,28 @@ The [wiring diagram](../Images/Rev3.2/wiringDiagram.png) was designed for the re
 * S1A  - Red Stepper Wire
 * S1B  - Blue Stepper Wire
 * LED  - WS2812 / NeoPixel LED Input Wire
-    
-    
-## The board require: ##
-* a BAT85 Diode for abl probe
-* 2 Pins Microfit 3.0 for the heater
-   * PCB: [Molex 436500200](https://www.digikey.ca/en/products/detail/molex/0436500200/268989)
-   * Harness: [Molex 0436450200](https://www.digikey.ca/en/products/detail/molex/0436450200)
-* 18 Pins Microfit 3.0 for the main harness: 
-   * PCB: [Molex 0430451801](https://www.digikey.ca/en/products/detail/molex/0430451801/3310258?4)
-   * Harness: [Molex 0430251800](https://www.digikey.ca/en/products/detail/molex/0430251800/531407)
-* Solder jumper for HEC, PCF and Probe.  Default in Voron is 24v for evey one
-* Bullet list
-              * Nested bullet
-
+     
 ## The board features: ##
  - RGB NeoPixel LED, configurable via macro or script.  This LED is the first one of the sequence when using the LED connectors
  - 2/3 pin JST-XH headers for most components on the toolhead JST-XH
  - 0805 pkg thermistor to be used as a chamber temperature 
  - the main wiring harness connector is [Here](https://www.molex.com/molex/products/part-detail/crimp_housings/430451801) <--- to be revised
  - 20awg should be fine for 24v and HE0, 24awg for everything else 
+
+## BOM ##
+* a BAT85 Diode for abl probe (Original Afterburner BOM)
+* 2 Pins Microfit 3.0 for the heater
+   * PCB: [Molex 436500200](https://www.digikey.ca/en/products/detail/molex/0436500200/268989)
+   * Wires: [Molex 0436450200](https://www.digikey.ca/en/products/detail/molex/0436450200/268974)
+* 18 Pins Microfit 3.0 for the main harness: 
+   * PCB: [Molex 0430451801](https://www.digikey.ca/en/products/detail/molex/0430451801/3310258?4)
+   * Harness: [Molex 0430251800](https://www.digikey.ca/en/products/detail/molex/0430251800/531407)
+* 20 x [Microfit 3.0 Female Crimp 0430300007](https://www.digikey.ca/en/products/detail/molex/0430300007/252479)
+* 20 x [Microfit 3.0 Male Crimp 0430310001](https://www.digikey.ca/en/products/detail/molex/0430310001/467798)
+* 4 x JST-XH 2 PIN (PCB, wire and crimp)
+* 3 x JST-XH 3 PIN (PCB, wire and crimp)
+* Same mounting kit and screw than V4.0
+
 
 ## HOW-TO NEOPIXEL ##
 You can use any NeoPixel or WS2812 LED macros or configuration already documented for your Voron.
