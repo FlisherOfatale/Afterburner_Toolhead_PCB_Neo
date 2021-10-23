@@ -43,12 +43,16 @@ The [wiring diagram](../Images/Rev3.2/wiringDiagram.png) was designed for the re
 * S1B  - Blue Stepper Wire
 * LED  - WS2812 / NeoPixel LED Input Wire
      
+     
 ## The board features: ##
  - RGB NeoPixel LED, configurable via macro or script.  This LED is the first one of the sequence when using the LED connectors
  - 2/3 pin JST-XH headers for most components on the toolhead JST-XH
  - 0805 pkg thermistor to be used as a chamber temperature 
  - the main wiring harness connector is [Here](https://www.molex.com/molex/products/part-detail/crimp_housings/430451801) <--- to be revised
- - 20awg should be fine for 24v and HE0, 24awg for everything else 
+ - 20awg should be fine for 5v, 12v, 24v and HE0 / 24awg for everything else 
+ - the 5v wire is required for the NeoPixel and LED connector
+ - the 12v is only required if you plan to use 12v on fan or probe, but, I would still pass the wire even if not in use to avoir rewiring a wire later...
+ 
 
 ## BOM ##
 * a BAT85 Diode for abl probe (Original Afterburner BOM)
