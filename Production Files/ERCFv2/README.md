@@ -1,8 +1,8 @@
 
 Note that as of 2021-10-22, this PCB was not tested in a live printer.  
 The design and trace were reviewed by Flisher and Hart.    
-DRC Checking during the design, and continuity test were performed with a real PCB.
-The Neopixel and LED port where tested with success too.
+DRC Checking during the design, and continuity test were performed with a real PCB.  
+The Neopixel and LED port where tested with success too.  
 
 ## ERCFv2
 ![PCB](../../Images/ERCFv2/1.png)
