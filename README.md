@@ -2,6 +2,11 @@
 While it should work properly, I can't guarantee it will work or not break something until I or someone test it in a live printer.  
 As of 2021-10-22, this PCB WAS NOT TESTED IN A LIVE PRINTER.
 
+# DISCLAIMER 2# 
+CURRENT PRODUCTION FILE AND IMAGES ARE LABELED ERCFv2, BUT THIS PCB IS IN THE PROCESS OF BEING RENAMED to NEO
+PICTURE AND PRODUCTION FILE WILL BE UPDATED SHORTLY< PLEASE DONT SEND THE CURRENT VERSION TO PRODUCTION TO AVOID CONFUSION
+
+
 The design was done byt Flisher with guidance from Hartk.  
 DRC Checking during the design.  
 Continuity test were performed with a meeter on a real PCB.  
@@ -10,12 +15,21 @@ The Neopixel and LED port where tested with success too.
 
 FlisherOfatale#0042 on the VORONDesign Discord Server have some PCB available if you want to test it (Canada prefered, US possible)
 
-## ERCFv2 ##
+## Afterburner Toolhead PCB - Neo v1.0 ##
 ### Description ###
 The goal of this PCB was to replace the LED with a NeoPixel and add an additionnal connector for Adressable LED.  
-This version is work even if you don't have an ERCF.  
+This version is a spiritual successor to the both original Hartk Afterburner PCB.  
 
-While effort were made to maintain the same form factor than the ERCF version to maintain compatibility with other mods, the wiring diagram and connector layout had to be changed.  
+## Features ##
+ - Same form factor than the original Hartk Afterburner PCB ERCF (compatible with the v4.0 mount)
+ - RGB NeoPixel LED, configurable via macro or script.  This LED is the first one of the sequence when using the LED connectors
+ - 2/3 pin JST-XH headers for most components on the toolhead JST-XH
+ - 0805 pkg thermistor to be used as a chamber temperature 
+ 
+While effort were made to maintain the same form factor than the ERCF version to maintain compatibility with other mods, the following change were required:
+* Main harness bumped from 14/14+2 to 18 pin
+* Main harness pinout changed from the original PCB
+* Connector where moved around on the PCB on the PCB had to be changed
 
 ![PCB](/Images/pcb-layout.png)
 
@@ -43,12 +57,6 @@ This [wiring diagram](https://github.com/VoronDesign/Voron-Hardware/blob/master/
 * S1B  - Blue Stepper Wire
 * LED  - WS2812 / NeoPixel LED Input Wire
      
-## The board features: ##
- - RGB NeoPixel LED, configurable via macro or script.  This LED is the first one of the sequence when using the LED connectors
- - 2/3 pin JST-XH headers for most components on the toolhead JST-XH
- - 0805 pkg thermistor to be used as a chamber temperature 
- - the main wiring harness connector is [Here](https://www.molex.com/molex/products/part-detail/crimp_housings/430451801) <--- to be revised
- - 20awg should be fine for 24v and HE0, 24awg for everything else 
 
 ## BOM ##
 * a BAT85 Diode for abl probe (Original Afterburner BOM)
@@ -62,6 +70,15 @@ This [wiring diagram](https://github.com/VoronDesign/Voron-Hardware/blob/master/
 * 4 x JST-XH 2 PIN (PCB, wire and crimp)
 * 3 x JST-XH 3 PIN (PCB, wire and crimp)
 * Same mounting kit and screw than [Hartk Afterburner PCB V4.0](https://github.com/VoronDesign/Voron-Hardware/blob/master/Afterburner_Toolhead_PCB)
+
+## WIRING RECOMMENDATION ##
+* 20awg should be fine for 24v and HE0 
+* 20awg is recommended for 5v and 12v wire (future proof in case you need more power in future mod...)
+* 24awg for everything else 
+
+Important Note related to wiring requirement :
+* the 5v wire is required for the NeoPixel and LED connector
+* the 12v is only required if you plan to use 12v on fan or probe, but, I would still pass the wire even if not in use to avoir rewiring a wire later...
 
 
 ## HOW-TO NEOPIXEL ##
@@ -82,4 +99,4 @@ Example of Solder Solder Jumper for default configuration in most Vorom (24v fan
 
 ![Instruction](/Images/solderjumper-instructions.png)
 
-Special thank to Hartk for his guidance and help.
+Special thank to Hartk for his guidance and help.  Is original work can be found [here](https://github.com/VoronDesign/Voron-Hardware/tree/master/Afterburner_Toolhead_PCB)
