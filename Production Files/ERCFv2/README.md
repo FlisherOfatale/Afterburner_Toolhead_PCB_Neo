@@ -72,7 +72,7 @@ A super simple to use sample of code can be found [here](https://github.com/hart
 
 ## JUIMP SOLDER CONFIGURATION
 ### WARNING ###
-* Please read validate you are jump soldering the right voltage.  Refer to the image below for example
+* Please validate you are jump soldering the right voltage for your usage.  Refer to the image below for example
 * DO NOT solder jumper 2 differents voltage to the same 
 * When soldering 12/24v, doublecheck the connectivity with the unused pad and the middle one to be sure you did not short 12 and 24v together.
  
