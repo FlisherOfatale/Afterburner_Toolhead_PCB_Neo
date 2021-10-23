@@ -69,6 +69,3 @@ Example of Solder Solder Jumper for default configuration in most Vorom (24v fan
 ![PCB](../../Images/ERCFv2/solderjumper.png)
 
 ![Instruction](../../Images/ERCFv2/solderjumper-example.png)
-
-## TODO ##
-Add Molex part numbers
