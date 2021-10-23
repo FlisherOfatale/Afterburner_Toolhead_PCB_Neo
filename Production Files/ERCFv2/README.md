@@ -1,10 +1,16 @@
 
 Note that as of 2021-10-22, this PCB was not tested in a live printer.  
-The design and trace were reviewed by Flisher and Hart.    
+The design was done byt Flisher with guidance from Hartk
 DRC Checking during the design, and continuity test were performed with a real PCB.  
 The Neopixel and LED port where tested with success too.  
 
-## ERCFv2
+## ERCFv2 ##
+### Descroption ###
+The goal of this PCB was to replace the LED with a NeoPixel, and add an additionnal connector for Adressable LED.  
+This version is work even if you don't have an ERCF.  
+
+While effort were made to maintain the same form factor than the ERCF version to maintain compatibility with other mods, the wiring diagram and connector layout had to be changed.  
+
 ![PCB](../../Images/ERCFv2/1.png)
 
 The [wiring diagram](../Images/Rev3.2/wiringDiagram.png) was designed for the regular V4.0 version but you can get an idea of the wiring by looking at it.
