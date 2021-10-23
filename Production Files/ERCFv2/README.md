@@ -1,12 +1,18 @@
+# DISCLAIMER #
+While it should work properly, I can't guarantee it will work or not break something until I or someone test it in a live printer.  
+As of 2021-10-22, this PCB WAS NOT TESTED IN A LIVE PRINTER.
 
-Note that as of 2021-10-22, this PCB was not tested in a live printer.  
-The design was done byt Flisher with guidance from Hartk
-DRC Checking during the design, and continuity test were performed with a real PCB.  
+The design was done byt Flisher with guidance from Hartk.  
+DRC Checking during the design.  
+Continuity test were performed with a meeter on a real PCB.  
 The Neopixel and LED port where tested with success too.  
 
+
+FlisherOfatale#0042 on the VORONDesign Discord Server have some PCB available if you want to test it (Canada prefered, US possible)
+
 ## ERCFv2 ##
-### Descroption ###
-The goal of this PCB was to replace the LED with a NeoPixel, and add an additionnal connector for Adressable LED.  
+### Description ###
+The goal of this PCB was to replace the LED with a NeoPixel and add an additionnal connector for Adressable LED.  
 This version is work even if you don't have an ERCF.  
 
 While effort were made to maintain the same form factor than the ERCF version to maintain compatibility with other mods, the wiring diagram and connector layout had to be changed.  
@@ -75,3 +81,5 @@ Example of Solder Solder Jumper for default configuration in most Vorom (24v fan
 ![PCB](../../Images/ERCFv2/solderjumper.png)
 
 ![Instruction](../../Images/ERCFv2/solderjumper-example.png)
+
+Special thank to Hartk for his guidance and help.
