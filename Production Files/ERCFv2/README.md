@@ -50,9 +50,10 @@ You can use any NeoPixel or WS2812 LED macros or configuration already documente
 
 A super simple to use sample of code can be found [here](https://github.com/hartk1213/DoomConfig/blob/master/led.cfg).
 
-## Default Solder Jumper should be there
+## JUIMP SOLDER CONFIGURATION
+Example of Solder Solder Jumper for default configuration in most Vorom (24v fan and probe)
 ![PCB](../../Images/ERCFv2/solderjumper.png)
-
+![Instruction](../../Images/ERCFv2/solderjumper-example.png)
 
 ## TODO ##
 Add Molex part numbers
