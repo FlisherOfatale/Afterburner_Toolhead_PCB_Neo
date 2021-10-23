@@ -1,8 +1,14 @@
-# DISCLAIMER #
+# DISCLAIMER #1 #
 While it should work properly, I can't guarantee it will work or not break something until I or someone test it in a live printer.  
-As of 2021-10-22, this PCB WAS NOT TESTED IN A LIVE PRINTER.
 
-# DISCLAIMER 2# 
+As of 2021-10-22, this PCB WAS NOT TESTED IN A LIVE PRINTER.  
+
+The design was done byt Flisher with guidance from Hartk.  
+DRC Checking during the design phase.  
+Continuity test were performed with a meeter on a real PCB.  
+The Neopixel and LED port were tested with success too.  
+
+# DISCLAIMER #2 # 
 CURRENT PRODUCTION FILE AND IMAGES ARE LABELED ERCFv2, BUT THIS PCB IS IN THE PROCESS OF BEING RENAMED to NEO
 PICTURE AND PRODUCTION FILE WILL BE UPDATED SHORTLY< PLEASE DONT SEND THE CURRENT VERSION TO PRODUCTION TO AVOID CONFUSION
 
@@ -15,8 +21,8 @@ The Neopixel and LED port where tested with success too.
 
 FlisherOfatale#0042 on the VORONDesign Discord Server have some PCB available if you want to test it (Canada prefered, US possible)
 
-## Afterburner Toolhead PCB - Neo v1.0 ##
-### Description ###
+# Afterburner Toolhead PCB - Neo v1.0 #
+## Description ##
 The goal of this PCB was to replace the LED with a NeoPixel and add an additionnal connector for Adressable LED.  
 This version is a spiritual successor to the both original Hartk Afterburner PCB.  
 
@@ -29,13 +35,14 @@ This version is a spiritual successor to the both original Hartk Afterburner PCB
 While effort were made to maintain the same form factor than the ERCF version to maintain compatibility with other mods, the following change were required:
 * Main harness bumped from 14/14+2 to 18 pin
 * Main harness pinout changed from the original PCB
-* Connector where moved around on the PCB on the PCB had to be changed
+* Connectors where moved around on the PCB on the PCB had to be changed
 
 ![PCB](/Images/pcb-layout.png)
 
 This [wiring diagram](https://github.com/VoronDesign/Voron-Hardware/blob/master/Afterburner_Toolhead_PCB/Images/Wiring/ERCF-Toolhead%20SKR%201_4%20wiring.png) was designed for the regular V4.0 version but you can get an idea of the wiring by looking at it.
- 
-### Pinout (LEFT ROW FROM TOP)
+
+## Pinout ##
+### LEFT ROW FROM TOP ##
 * PROBE/ABL  - Probe Signal Pin
 * PCF  - Part Cooling Fan -V
 * CT   - Chamber Thermistor Signal Pin (TH1)
@@ -46,7 +53,7 @@ This [wiring diagram](https://github.com/VoronDesign/Voron-Hardware/blob/master/
 * HE0  - Hotend Heater -V    
 * 24V  - HE0 +V 
 
-### Pinout (RIGHT ROW FROM TOP)
+### RIGHT ROW FROM TOP ##
 * 12V - 12 V+
 * XES  - X Endstop Signal Pin    
 * HEF  - Hotend Cooling Fan -V
@@ -87,7 +94,7 @@ You can use any NeoPixel or WS2812 LED macros or configuration already documente
 A super simple to use sample of code can be found [here](https://github.com/hartk1213/DoomConfig/blob/master/led.cfg).
 
 ## JUMP SOLDER CONFIGURATION
-### WARNING ###
+## WARNING - WARNING ##
 * Please validate you are jump soldering the right voltage for your usage.  Refer to the image below for example
 * DO NOT solder jumper 2 differents voltage to the same 
 * When soldering 12/24v, doublecheck the connectivity with the unused pad and the middle one to be sure you did not short 12 and 24v together.
