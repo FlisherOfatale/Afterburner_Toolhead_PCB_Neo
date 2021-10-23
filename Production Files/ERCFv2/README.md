@@ -45,10 +45,14 @@ The [wiring diagram](../Images/Rev3.2/wiringDiagram.png) was designed for the re
  - the main wiring harness connector is [Here](https://www.molex.com/molex/products/part-detail/crimp_housings/0430251400) <--- to be revised
  - 20awg should be fine for 24v and HE0, 24awg for everything else 
 
-## HOW-TO NEOPIXEL 
+## HOW-TO NEOPIXEL ##
 You can use any NeoPixel or WS2812 LED macros or configuration already documented for your Voron.
 
 A super simple to use sample of code can be found [here](https://github.com/hartk1213/DoomConfig/blob/master/led.cfg).
 
 ## Default Solder Jumper should be there
 ![PCB](../../Images/ERCFv2/solderjumper.png)
+
+
+## TODO ##
+Add Molex part numbers
