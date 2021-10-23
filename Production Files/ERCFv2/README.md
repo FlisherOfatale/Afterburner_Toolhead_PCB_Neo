@@ -35,14 +35,20 @@ The [wiring diagram](../Images/Rev3.2/wiringDiagram.png) was designed for the re
 ## The board require: ##
 * a BAT85 Diode for abl probe
 * 2 Pins Microfit 3.0 for the heater
-* 18 Pins Microfit 3.0 for the main harness
+   * PCB: [Molex 436500200](https://www.digikey.ca/en/products/detail/molex/0436500200/268989)
+   * Harness: [Molex 0436450200](https://www.digikey.ca/en/products/detail/molex/0436450200)
+* 18 Pins Microfit 3.0 for the main harness: 
+   * PCB: [Molex 0430451801](https://www.digikey.ca/en/products/detail/molex/0430451801/3310258?4)
+   * Harness: [Molex 0430251800](https://www.digikey.ca/en/products/detail/molex/0430251800/531407)
 * Solder jumper for HEC, PCF and Probe.  Default in Voron is 24v for evey one
+* Bullet list
+              * Nested bullet
 
 ## The board features: ##
  - RGB NeoPixel LED, configurable via macro or script.  This LED is the first one of the sequence when using the LED connectors
- - 2/3 pin headers for most components on the toolhead
+ - 2/3 pin JST-XH headers for most components on the toolhead JST-XH
  - 0805 pkg thermistor to be used as a chamber temperature 
- - the main wiring harness connector is [Here](https://www.molex.com/molex/products/part-detail/crimp_housings/0430251400) <--- to be revised
+ - the main wiring harness connector is [Here](https://www.molex.com/molex/products/part-detail/crimp_housings/430451801) <--- to be revised
  - 20awg should be fine for 24v and HE0, 24awg for everything else 
 
 ## HOW-TO NEOPIXEL ##
@@ -51,8 +57,15 @@ You can use any NeoPixel or WS2812 LED macros or configuration already documente
 A super simple to use sample of code can be found [here](https://github.com/hartk1213/DoomConfig/blob/master/led.cfg).
 
 ## JUIMP SOLDER CONFIGURATION
+### WARNING ###
+* Please read validate you are jump soldering the right voltage.  Refer to the image below for example
+* DO NOT solder jumper 2 differents voltage to the same 
+* When soldering 12/24v, doublecheck the connectivity with the unused pad and the middle one to be sure you did not short 12 and 24v together.
+ 
+
 Example of Solder Solder Jumper for default configuration in most Vorom (24v fan and probe)
 ![PCB](../../Images/ERCFv2/solderjumper.png)
+
 ![Instruction](../../Images/ERCFv2/solderjumper-example.png)
 
 ## TODO ##
