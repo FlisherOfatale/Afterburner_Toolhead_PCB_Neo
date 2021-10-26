@@ -106,4 +106,4 @@ Example of Solder Solder Jumper for default configuration in most Vorom (24v fan
 
 ![Instruction](/Images/solderjumper-instructions.png)
 
-Special thank to Hartk for his guidance and help.  Is original work can be found [here](https://github.com/VoronDesign/Voron-Hardware/tree/master/Afterburner_Toolhead_PCB)
+Special thank to Hartk for his guidance and help.  Is original work can be found [here](https://github.com/hartk1213/Voron-Hardware/tree/master/Afterburner_Toolhead_PCB)
