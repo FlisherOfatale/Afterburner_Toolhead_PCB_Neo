@@ -1,4 +1,4 @@
-# Afterburner Toolhead PCB - Neo v1.0 #
+# Flisher's Afterburner Toolhead PCB - Neo v1.0 #
 
 ## DISCLAIMER ## 
 As of 2021-11-15, both Neo and Neo XL ARE NOT TESTED IN A LIVE PRINTER.  
@@ -87,7 +87,7 @@ A super simple to use sample of code can be found [here](https://github.com/hart
 Please reach out to me if you have interesting script to suggest, I'll add them to the repository.  
 
 
-# Afterburner Toolhead PCB - Neo XL v1.0 #
+# Flisher's Afterburner Toolhead PCB - Neo XL v1.0 #
 The Neo XL variant was created with the following idea in mind:
 * Maintain Hartk ERCF Toolhead PCB form factor
 * Add features such have voltage option, NeoPixel, Led Strip.
