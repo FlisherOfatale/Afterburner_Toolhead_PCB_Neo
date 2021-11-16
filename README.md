@@ -21,6 +21,13 @@ Comprehensive list of the PCB I know about, comparison are VS Hartk's V4.0
 |[Neo](./Production%20Files/ERCF/)|+Filament Sensor<br>+Neo Pixel on board<br>LED connector<br>XES merged with FS||14+2 pins|24v<br>5v LED|RGB|Flisher|
 |[Neo XL](./Production%20Files/ERCF/)|Neo<br>+5/12v options||18 pins|5/24v<br>jump solder|RGB|Flisher|
 
+Personal Note: 
+* There is no real reason to not use the ERCF VS v4.0, even if you don't have the additionnal 2 wire
+* Replacing an ERCF for a Neo should be really simple for the following scenarios with only configuration:
+    * ERCF Setup / no XES 
+    * Non-ERCF Setup
+
+
 ## DISCLAIMER ## 
 As of 2021-11-15, this PCB WAS NOT TESTED IN A LIVE PRINTER.  
 The design was done by Flisher with guidance from Hartk.  
