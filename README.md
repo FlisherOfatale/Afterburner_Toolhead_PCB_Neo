@@ -3,9 +3,14 @@
 ## DISCLAIMER ## 
 As of 2021-11-15, both Neo and Neo XL ARE NOT TESTED IN A LIVE PRINTER.  
 The design was done by Flisher with guidance from Hartk.  
-DRC Checking during the design phase.  
-Continuity test were performed with a meeter on a real PCB.  
-The Neopixel and LED port were tested with success on both PCB.  
+
+Design Tool validation: 
+* DRC Checking during the design phase in EasyEDA.
+
+Physical Tests:
+* Continuity test were performed with a meeter on a real PCB.
+* The Neopixel and LED port were tested with success on both PCB.
+
 
 ## Description ##
 The goal of this PCB was to replace the LED with a NeoPixel and add an additionnal connector for Adressable LED.  
@@ -39,7 +44,8 @@ Personal Note:
 IMPORTANT:
 This PCB reuse most of the ERCF wiring pattern, EXCEPT the XES.
 The XES pin is reused for the LED.  For many person, this won't require any wiring at all, unless XES was used.
-Note taht you can't have both XES and FS at the same time with this PCB, considering XES is rarely used, this PCB should be polyvalent enought for most people.
+Note that you can't have both XES and FS at the same time with this PCB, considering XES is rarely used, this PCB should be polyvalent enought for most people.
+
 ## Pinout ##
 ### LEFT ROW FROM TOP ##
 * PROBE/ABL  - Probe Signal Pin
