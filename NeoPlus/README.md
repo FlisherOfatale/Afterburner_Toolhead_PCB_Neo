@@ -24,7 +24,7 @@ The Neopixel and LED port where tested with success too.
 
 FlisherOfatale#0042 on the VORONDesign Discord Server have some PCB available if you want to test it (Canada prefered, US possible)
 
-# Afterburner Toolhead PCB - Neo v1.0 #
+# Afterburner Toolhead PCB - Neo XL v1.0 #
 ## Description ##
 The goal of this PCB was to replace the LED with a NeoPixel and add an additionnal connector for Adressable LED.  
 This version is a spiritual successor to the both original Hartk Afterburner PCB.  
