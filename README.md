@@ -30,7 +30,7 @@ Comprehensive list of the PCB I know about, comparison are VS Hartk's V4.0
 |3.2|Standard|Mount with M3 washers|14 pins|24v|Red|Hartk|
 |[4.0](https://github.com/VoronDesign/Voron-Hardware/tree/master/Afterburner_Toolhead_PCB/)|Standard|Improved traces width|14 pins|24v|Red|Hartk|
 |[ERCF](https://github.com/VoronDesign/Voron-Hardware/tree/master/Afterburner_Toolhead_PCB/)|+Filament Sensor|No reason to not use VS 4.0|14+2 pins|5/24v<br>jump solder/cut|Red|Hartk|
-|[Neo](./Neo/Production%20Files/)|+Filament Sensor<br>+RGB LED<br>+LED connector<br>+Jump Solder Diode bypass<br>merged XES/FS|Almost an ERCF<br>drop-in alternative<br>require configuration for LED|14+2 pins|24v<br>5v LED|RGB|Flisher|
+|[Neo](./Neo/Production%20Files/)|+Filament Sensor<br>+RGB LED<br>+LED connector<br>+Jump Solder Diode bypass<br>merged XES/FS|Almost an ERCF<br>drop-in alternative<br>Require configuration for LED|14+2 pins|24v<br>5v LED|RGB|Flisher|
 |[Neo XL](./NeoXL/Production%20Files/)|Neo's Features<br>+5/12v options|not backward compatible|18 pins|5/24v<br>jump solder|RGB|Flisher|
 
 Personal Note: 
