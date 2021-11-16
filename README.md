@@ -2,7 +2,7 @@
 
 ## Description ##
 The goal of this PCB was to replace the LED with a NeoPixel and add an additionnal connector for Adressable LED.  
-This version is a spiritual successor to the both original Hartk Afterburner PCB.  
+This version is a spiritual successor to both original Hartk Afterburner PCB.  
 
 I created this version of the PCB with the following ideas in mind:
 * Maintain Hartk ERCF Toolhead PCB form factor
@@ -19,14 +19,15 @@ Comprehensive list of the PCB I know about, comparison are VS Hartk's V4.0
 |[4.0](https://github.com/VoronDesign/Voron-Hardware/tree/master/Afterburner_Toolhead_PCB/)|Standard|improved traces width|14 pins|24v|Red|Hartk|
 |[ERCF](https://github.com/VoronDesign/Voron-Hardware/tree/master/Afterburner_Toolhead_PCB/)|+Filament Sensor||14+2 pins|5/24v<br>jump solder/cut|Red|Hartk|
 |[Neo](./Production%20Files/ERCF/)|+Filament Sensor<br>+Neo Pixel on board<br>LED connector<br>XES merged with FS||14+2 pins|24v<br>5v LED|RGB|Flisher|
-|[Neo XL](./Production%20Files/ERCF/)|Neo<br>+5/12v options||18 pins|5/24v<br>jump solder|RGB|Flisher|
+|[Neo XL](./Production%20Files/ERCF/)|Neo's Feature<br>+5/12v options|complex to use|18 pins|5/24v<br>jump solder|RGB|Flisher|
 
 Personal Note: 
-* There is no real reason to not use the ERCF VS v4.0, even if you don't have the additionnal 2 wire
+* There is no real reason to not use the ERCF VS v4.0, even if you don't have the additionnal 2 wires
 * Replacing an ERCF for a Neo should be really simple for the following scenarios with only configuration:
     * ERCF Setup / no XES 
     * Non-ERCF Setup
 
+![Neo v1.0](Neo/Images/pcb-layout.png)
 
 ## DISCLAIMER ## 
 As of 2021-11-15, this PCB WAS NOT TESTED IN A LIVE PRINTER.  
@@ -83,13 +84,17 @@ Note taht you can't have both XES and FS at the same time with this PCB, conside
 You can use any NeoPixel or WS2812 LED macros or configuration already documented for your Voron.
 
 A super simple to use sample of code can be found [here](https://github.com/hartk1213/DoomConfig/blob/master/led.cfg).
-Please reach out to me if you have interesting script to suggest, I'll add them to the repository.
+Please reach out to me if you have interesting script to suggest, I'll add them to the repository.  
+
+
 # Afterburner Toolhead PCB - Neo XL v1.0 #
-This variant was created with the following idea in mind:
+The Neo XL variant was created with the following idea in mind:
 * Maintain Hartk ERCF Toolhead PCB form factor
 * Add features such have voltage option, NeoPixel, Led Strip.
 * The only version know to have been produced where labeled ERCFv2 and distributed by Flisher for testing purpose.
 * This version doesn't support standard Hartk's PCB wiring.
 * File from the production server are still flagged as ERCFv2, will be fixed once someone confirm the design work.
 Details about this version  [Here](./NeoPlus/README.md)
+This is an PCB more complex version without any backward compatibilities
 Note that I'm not intenting to support this version in the long run, the regular Neo will do the trick for most.
+
