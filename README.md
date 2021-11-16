@@ -17,9 +17,9 @@ Comprehensive list of the PCB I know about, comparison are VS Hartk's V4.0
 |-|-|-|-|-|-|-|
 |3.2|Standard|Mount with M3 washers|14 pins|24v|Red|Hartk|
 |[4.0](https://github.com/VoronDesign/Voron-Hardware/tree/master/Afterburner_Toolhead_PCB/)|Standard|improved traces width|14 pins|24v|Red|Hartk|
-|[ERCF](https://github.com/VoronDesign/Voron-Hardware/tree/master/Afterburner_Toolhead_PCB/)|+Filament Sensor||14+2 pins|5/24v<br>jump solder/cut|Red|Hartk|
-|[Neo](./Production%20Files/ERCF/)|+Filament Sensor<br>+Neo Pixel on board<br>LED connector<br>XES merged with FS||14+2 pins|24v<br>5v LED|RGB|Flisher|
-|[Neo XL](./Production%20Files/ERCF/)|Neo's Feature<br>+5/12v options|complex to use|18 pins|5/24v<br>jump solder|RGB|Flisher|
+|[ERCF](https://github.com/VoronDesign/Voron-Hardware/tree/master/Afterburner_Toolhead_PCB/)|+Filament Sensor|No reason to not use VS 4.0|14+2 pins|5/24v<br>jump solder/cut|Red|Hartk|
+|[Neo](./Production%20Files/ERCF/)|+Filament Sensor<br>+Neo Pixel on board<br>+LED connector<br>XES merged with FS|Almost an ERCF drop-in alternative|14+2 pins|24v<br>5v LED|RGB|Flisher|
+|[Neo XL](./Production%20Files/ERCF/)|Neo's Features<br>+5/12v options|wiring not backward compatible|18 pins|5/24v<br>jump solder|RGB|Flisher|
 
 Personal Note: 
 * There is no real reason to not use the ERCF VS v4.0, even if you don't have the additionnal 2 wires
