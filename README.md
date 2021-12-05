@@ -28,9 +28,9 @@ Personal Note:
 ![Neo v1.0](Neo/Images/pcb-layout.png)
 
 IMPORTANT:
-This PCB reuse most of the ERCF wiring pattern, EXCEPT the XES.
-The XES pin is reused for the LED.  For many person, this won't require any wiring at all, unless XES was used.
-Note that you can't have both XES and FS at the same time with this PCB, considering XES is rarely used, this PCB should be polyvalent enought for most people.
+This PCB reuse most of the ERCF wiring pattern, EXCEPT the XES.  
+The XES pin is reused for the LED.  For many person, this won't require any wiring at all, unless XES was used.  
+Note that you CANNOT have both XES and FS at the same time with this PCB, considering XES is rarely used, this PCB should be polyvalent enought for most people using Clockwork1 (the original extruder of the Afterburner)
 
 ## Pinout ##
 ### LEFT ROW FROM TOP ##
@@ -75,5 +75,5 @@ Note that you can't have both XES and FS at the same time with this PCB, conside
 ## HOW-TO NEOPIXEL ##
 You can use any NeoPixel or WS2812 LED macros or configuration already documented for your Voron.
 
-A super simple to use sample of code can be found [here](https://github.com/hartk1213/DoomConfig/blob/master/led.cfg).
+A super simple to use sample of code can be found [here](https://github.com/hartk1213/DoomConfig/blob/master/led.cfg).  
 Please reach out to me if you have interesting script to suggest, I'll add them to the repository.  
