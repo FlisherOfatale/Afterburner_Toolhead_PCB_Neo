@@ -56,7 +56,7 @@ Note that you can't have both XES and FS at the same time with this PCB, conside
 * FS  - Filament Sensor / XES - X Endstop Signal Pin
 
 ## BOM ##
-* a BAT85 Diode for abl probe (Original Afterburner BOM)
+* a BAT85 Diode for abl probe (Original Afterburner BOM, if required with your MCU)
 * 2 Pins Microfit 3.0 for the heater
    * PCB: [Molex 436500200](https://www.digikey.ca/en/products/detail/molex/0436500200/268989)
    * Wires: [Molex 0436450200](https://www.digikey.ca/en/products/detail/molex/0436450200/268974)
