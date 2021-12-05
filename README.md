@@ -1,17 +1,4 @@
 # Flisher's Afterburner Toolhead PCB - Neo v1.0 #
-
-## DISCLAIMER ## 
-As of 2021-11-15, both Neo and Neo XL ARE NOT TESTED IN A LIVE PRINTER.  
-The design was done by Flisher with guidance from Hartk.  
-
-Design Tool validation: 
-* DRC Checking during the design phase in EasyEDA.
-
-Physical Tests:
-* Continuity test were performed with a meeter on a real PCB.
-* The Neopixel and LED port were tested with success on both PCB.
-
-
 ## Description ##
 The goal of this PCB was to replace the LED with a NeoPixel and add an additionnal connector for Adressable LED.  
 This version is a spiritual successor to both original Hartk Afterburner PCB.  

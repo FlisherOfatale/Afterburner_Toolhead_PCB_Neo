@@ -4,12 +4,16 @@
 # DISCLAIMER #1 #
 While it should work properly, I can't guarantee it will work or not break something until I or someone test it in a live printer.  
 
-As of 2021-11-15, this PCB WAS NOT TESTED IN A LIVE PRINTER.  
+I would NOT recomment using it unless you have very specific mod.  There is no known cover for it, and wiring diagram is different than the Hartk's schematic.
+As of 2021-12-06, this PCB WAS NOT TESTED IN A LIVE PRINTER.  
 
 The design was done by Flisher with guidance from Hartk.  
 DRC Checking during the design phase.  
 Continuity test were performed with a meeter on a real PCB.  
 The Neopixel and LED port were tested with success too.  
+
+This page is online as a reference guide for tester who have it.
+Please reach out Flisher on the Voron Discord if you need the production files.
 
 # DISCLAIMER #2 # 
 CURRENT PRODUCTION FILE AND IMAGES ARE LABELED ERCFv2, BUT THIS PCB IS IN THE PROCESS OF BEING RENAMED to NEO
