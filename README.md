@@ -77,16 +77,3 @@ You can use any NeoPixel or WS2812 LED macros or configuration already documente
 
 A super simple to use sample of code can be found [here](https://github.com/hartk1213/DoomConfig/blob/master/led.cfg).
 Please reach out to me if you have interesting script to suggest, I'll add them to the repository.  
-
-
-# Flisher's Afterburner Toolhead PCB - Neo XL v1.0 #
-The Neo XL variant was created with the following idea in mind:
-* Maintain Hartk ERCF Toolhead PCB form factor
-* Add features such have voltage option, NeoPixel, Led Strip.
-* The only version know to have been produced where labeled ERCFv2 and distributed by Flisher for testing purpose.
-* This version doesn't support standard Hartk's PCB wiring.
-* File from the production server are still flagged as ERCFv2, will be fixed once someone confirm the design work.
-Details about this version  [Here](./NeoPlus/README.md)
-This is an PCB more complex version without any backward compatibilities
-Note that I'm not intenting to support this version in the long run, the regular Neo will do the trick for most.
-
