@@ -57,13 +57,16 @@ Note that you CANNOT have both XES and FS at the same time with this PCB, consid
 
 ## BOM ##
 * a BAT85 Diode for abl probe (Original Afterburner BOM, if required with your MCU)
-* 2 Pins Microfit 3.0 for the heater
+* 2 Pins (Horizontal) Microfit 3.0 for the heater
    * PCB: [Molex 436500200](https://www.digikey.ca/en/products/detail/molex/0436500200/268989)
    * Wires: [Molex 0436450200](https://www.digikey.ca/en/products/detail/molex/0436450200/268974)
 * 14 Pins Microfit 3.0 for the main harness: 
    * PCB: [Molex 0430451801](https://www.digikey.ca/en/products/detail/molex/0430451400/531423)
    * Harness: [Molex 0430251800](https://www.digikey.ca/en/products/detail/molex/0430251400/531405)
-* 18 x [Microfit 3.0 Female Crimp 0430300007](https://www.digikey.ca/en/products/detail/molex/0430300007/252479)
+* 2 Pins (Vertical) Microfit 3.0 for the Main Harness:
+   * PCB: [Molex 0430450200](https://www.digikey.ca/en/products/detail/molex/0430450200/252526)
+   * Wires: [Molex 0430250200](https://www.digikey.ca/en/products/detail/molex/0430250200/252496)
+* 18 x [Microfit 3.0 Female Crimp 0430300007](https://www.digikey.ca/en/products/detail/molex/0430300007/252479) (order more)
 * 3 x JST-XH 2 PIN (PCB, wire and crimp)
 * 3 x JST-XH 3 PIN (PCB, wire and crimp)
 * Same mounting kit and screw than [Hartk Afterburner PCB V4.0](https://github.com/VoronDesign/Voron-Hardware/blob/master/Afterburner_Toolhead_PCB)
